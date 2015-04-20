@@ -1,0 +1,91 @@
+{HEADER}
+  <tr> 
+    <td align="left" valign="top"> 
+      <table width="740" border="0" cellspacing="0" cellpadding="0" height="300" align="center" style="margin:0 auto; width:960px;">
+        <tr align="left" valign="top"> 
+          <td width="150" bgcolor="#69a5a5" height="300"> 
+			{NAVIGATION}
+            <img src="../templates/images/border_navigation.gif" width="150" height="20"> 
+          </td>
+          <td width="450" height="300"><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="6" class="content_text">
+              <tr> 
+                <td class="text" align="left" valign="top"> 
+                  <!-- This is where the content starts -->
+		<span class="content_headline">Job Details</span><br><br>
+ 		  <b>Submitted by: </b>{ORIGINATOR}<br>
+		  <b>Last modification: </b>{LAST_MODIFICATION}<br><br>
+                  <table width="100%" border="0" class="text" valign="top">
+                    <tr>
+                      <td>Company:</td>
+                      <td>{COMPANY}</td>
+                    </tr>
+                    <tr> 
+                      <td>Industry:</td>
+                      <td>{JOB_INDUSTRY}</td>
+                    </tr>
+                    <tr> 
+                      <td>Title:</td>
+                      <td>{TITLE}</td>
+                    </tr>
+                    <tr> 
+                      <td>Salary:</td>
+                      <td>{SALARY}</td>
+                    </tr>
+                    <tr>
+                      <td>City:</td>
+                      <td>{CITY} </td>
+                    </tr>
+                    <tr>
+                      <td>Country:</td>
+                      <td>{COUNTRY} </td>
+                    </tr>
+                    <tr> 
+                      <td>Description:</td>
+                      <td>{DESCRIPTION} </td>
+                    </tr>
+                    <tr> 
+                      <td>Prerequisites:</td>
+                      <td>{PREREQUISITES} </td>
+                    </tr>
+                    <tr> 
+                      <td>Benefits:</td>
+                      <td>{BENEFITS}</td>
+                    </tr>
+                    <tr> 
+                      <td>Experience:</td>
+                      <td>{EXPERIENCE} Years</td>
+                    </tr>
+                    <tr> 
+                      <td>Start:</td>
+                      <td>{START_DATE} </td>
+                    </tr>
+                    <tr> 
+                      <td>Contact:</td>
+                      <td>{CONTACT} </td>
+                    </tr>
+                  </table>
+                  <p align="right"><img src="../templates/images/back.gif" border="0"  onClick="history.go(-1)">&nbsp;&nbsp;{DELETE}&nbsp;&nbsp;{EDIT}</p>
+                  <p> 
+	<!-- This is where the content ends -->
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td width="140" bgcolor="#CCCCCC" height="300"><img src="../templates/images/border_sponsors_bottom.gif" width="140" height="20"><br>
+          {SPONSORS}
+          </td>
+        </tr>
+        <tr align="left" valign="middle"> 
+          <td width="150" bgcolor="#69a5a5" height="50" align="center"><a href="#" target="_blank"></td>
+          <td width="450" height="50">
+		  {FOOTER}
+          </td>
+          <td width="140" bgcolor="#CCCCCC" height="50">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
